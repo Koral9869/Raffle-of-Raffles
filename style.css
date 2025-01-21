@@ -1,0 +1,17 @@
+#briefcases {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .briefcase {
+    padding: 20px;
+    background: #f2a900;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .briefcase.opened {
+    background: gray;
+    cursor: not-allowed;
+  }  
